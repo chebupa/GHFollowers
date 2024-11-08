@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,10 @@
 		46FEE0B12C9C10B00096D36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46FEE0B72C9C1EB00096D36E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4646D23D2CBEB55800FAB741 /* Number */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Number; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		46FEE09D2C9C10AE0096D36E /* Frameworks */ = {
@@ -72,6 +76,7 @@
 				46FEE0B12C9C10B00096D36E /* Info.plist */,
 				46C8F3572C9C5B91001A3998 /* SearchViewController.swift */,
 				46C8F3592C9C5C3B001A3998 /* FavouritesListViewController.swift */,
+				4646D23D2CBEB55800FAB741 /* Number */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -90,6 +95,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4646D23D2CBEB55800FAB741 /* Number */,
 			);
 			name = GHFollowers;
 			productName = GHFollowers;
